@@ -1,9 +1,6 @@
 <?php
 require_once __DIR__ . '/../config.php';
-// $servername = 'localhost';
-// $username='root';
-// $password = '';
-// $dbname = 'login_system';
+
 
 
 // establish connection
