@@ -1,0 +1,87 @@
+/* Card 3D hover effect */
+.card-hover {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card-hover:hover {
+  transform: rotateY(10deg) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar hover */
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0 !important;
+}
+
+/* Footer link hover */
+footer a:hover {
+  text-decoration: underline;
+}
+.carousel-inner img {
+    margin: 5px 0 ;
+  height: 500px;
+  object-fit: cover; /* crops image to fit */
+}
+/* Carousel height adjustment for smaller screens */
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+
+/* Registartion css */
+/* Dark Background */
+
+
+/* Card with 3D effect */
+.form-card {
+  background: rgba(20, 20, 20, 0.6); /* Blackish with 60% opacity */
+  border: none;
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Adds glassmorphism effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.form-label{
+    color: white;
+}
+
+/* Inputs */
+.form-input {
+  background: #2a2a2a;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+.form-input:focus {
+  background: #2a2a2a;
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px #0d6efd;
+  color: #fff;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Heading */
+h2 {
+  font-weight: bold;
+  color: #0d6efd;
+} 
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+config.php
+/uploads/
+/vendor/
+/node_modules/
+.env
